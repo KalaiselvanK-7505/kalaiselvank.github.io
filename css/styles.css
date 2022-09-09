@@ -1,0 +1,86 @@
+:root{
+    --bg-color-g900: #3f3f3f;
+    --screen_width: 1280;
+    --screen_height: 768;
+    --body_width: 1024;
+    --body_height: 1024;
+}
+*
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(218, 216, 216);
+    padding: 0;
+    margin: 0;
+}
+.headerbar
+{
+    background-color: var(--bg-color-g900);
+    height: 25%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.headerbar .logo
+{
+   width: 120px;
+   top: 0;
+   left: 0;
+   float: left;
+}
+.headerbar .logo-name
+{
+    width: 300px;
+    top: 0;
+    left: 0;
+    /* float: left; */
+}
+.headerbar #clktxt
+{
+    font-size: larger;
+    font-weight: bold;
+    top: 5%;
+    right: 5%;
+    position: fixed;
+}
+.btn-primary
+{
+    background-color: rgb(179, 177, 177);
+    color: black;
+    border: 3px solid #21d327;
+    border-radius: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    width: 140px;
+    height: 70px;
+    font-weight: bold;
+    font-size: medium;
+}
+.btn-primary:hover
+{
+    background-color: #d1bda2;
+}
+.btn-primary:active
+{
+    background-color: #4CAF50;
+    border: 0;
+    color: white;
+}
+.button1
+{
+    border: 3px solid #4CAF50
+}
+.button1:active
+{
+    background-color: #4CAF50;
+    border: 0;
+    color: white;
+}
+.button2
+{
+    border: 3px solid #f44336
+}
+.button2:active
+{
+    background-color: #f44336;
+    border: 0;
+    color: white;
+}
